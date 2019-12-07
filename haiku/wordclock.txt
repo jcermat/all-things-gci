@@ -1,0 +1,196 @@
+~/haikuporter> haikuporter -f wordclock
+Checking if any dependency-infos need to be updated ... 
+Looking for stale dependency-infos ... 
+---------------------------------------------------------------------- 
+haiku-apps::wordclock-0.1.1
+        
+/boot/home/haikuports/haiku-apps/wordclock/wordclock-0.1.1.recipe 
+---------------------------------------------------------------------- 
+Skipping download of source for 
+WordClock-cbb5da9a498ec99a71a68f039042601207eafdd1.tar.gz Validating 
+checksum of WordClock-cbb5da9a498ec99a71a68f039042601207eafdd1.tar.gz 
+Cleaning source dir for 
+WordClock-cbb5da9a498ec99a71a68f039042601207eafdd1.tar.gz Unpacking 
+source of WordClock-cbb5da9a498ec99a71a68f039042601207eafdd1.tar.gz 
+Initialized empty Git repository in 
+/boot/home/haikuports/haiku-apps/wordclock/work-0.1.1/sources/WordClock-cbb5da9a498ec99a71a68f039042601207eafdd1/.git/ 
+chroot has these packages active:
+        /boot/system/packages/bash-4.4.023-1-x86_64.hpkg 
+        /boot/system/packages/binutils-2.28.1_2017_08_05-2-x86_64.hpkg 
+        /boot/system/packages/bzip2-1.0.6-8-x86_64.hpkg 
+        /boot/system/packages/ca_root_certificates-2018_06_20-1-any.hpkg 
+        /boot/system/packages/coreutils-8.29-1-x86_64.hpkg 
+        /boot/system/packages/curl-7.61.1-2-x86_64.hpkg 
+        /boot/system/packages/expat-2.2.6-1-x86_64.hpkg 
+        /boot/system/packages/ffmpeg-4.0.2-1-x86_64.hpkg 
+        /boot/system/packages/fontconfig-2.12.6-2-x86_64.hpkg 
+        /boot/system/packages/freetype-2.9-1-x86_64.hpkg 
+        /boot/system/packages/gcc-7.3.0_2018_05_01-3-x86_64.hpkg 
+        /boot/system/packages/gcc_syslibs-7.3.0_2018_05_01-3-x86_64.hpkg 
+        /boot/system/packages/gettext_libintl-0.19.8.1-5-x86_64.hpkg 
+        /boot/system/packages/giflib-5.1.4-2-x86_64.hpkg 
+        /boot/system/packages/gmp-6.1.2-3-x86_64.hpkg 
+        /boot/system/packages/gnutls-3.6.3-1-x86_64.hpkg 
+        /boot/system/packages/grep-3.1-1-x86_64.hpkg 
+        /boot/system/packages/gutenprint-5.2.14-1-x86_64.hpkg 
+        /boot/system/packages/gzip-1.8-2-x86_64.hpkg 
+        /boot/system/packages/haiku-r1~beta1_hrev52295_96-1-x86_64.hpkg
+        
+/boot/system/packages/haiku_devel-r1~beta1_hrev52295_96-1-x86_64.hpkg 
+        /boot/system/packages/icu-57.1-3-x86_64.hpkg 
+        /boot/system/packages/ilmbase-2.2.1-2-x86_64.hpkg 
+        /boot/system/packages/jasper-2.0.14-1-x86_64.hpkg 
+        /boot/system/packages/jpeg-9c-2-x86_64.hpkg 
+        /boot/system/packages/lcms-2.9-2-x86_64.hpkg 
+        /boot/system/packages/libgcrypt-1.8.3-1-x86_64.hpkg 
+        /boot/system/packages/libgpg_error-1.32-1-x86_64.hpkg 
+        /boot/system/packages/libicns-0.8.1-8-x86_64.hpkg 
+        /boot/system/packages/libiconv-1.15-4-x86_64.hpkg 
+        /boot/system/packages/libidn2-2.0.4-1-x86_64.hpkg 
+        /boot/system/packages/libmodplug-0.8.9.0-1-x86_64.hpkg 
+        /boot/system/packages/libogg-1.3.3-2-x86_64.hpkg 
+        /boot/system/packages/libpng16-1.6.35-1-x86_64.hpkg
+        
+/boot/system/packages/libsolv-0.3.0_haiku_2014_12_22-3-x86_64.hpkg 
+        /boot/system/packages/libtasn1-4.13-1-x86_64.hpkg 
+        /boot/system/packages/libtheora-1.1.1-7-x86_64.hpkg 
+        /boot/system/packages/libunistring-0.9.10-1-x86_64.hpkg 
+        /boot/system/packages/libvorbis-1.3.6-1-x86_64.hpkg 
+        /boot/system/packages/libvpx3-1.5.0-3-x86_64.hpkg 
+        /boot/system/packages/libwebp-1.0.0-1-x86_64.hpkg 
+        /boot/system/packages/libxml2-2.9.7-2-x86_64.hpkg 
+        /boot/system/packages/make-4.1-3-x86_64.hpkg
+        
+/boot/system/packages/makefile_engine-r1~beta1_hrev52295_96-1-any.hpkg 
+        /boot/system/packages/mkdepend-1.7-5-x86_64.hpkg 
+        /boot/system/packages/mpc-1.1.0-1-x86_64.hpkg 
+        /boot/system/packages/mpfr-3.1.6-3-x86_64.hpkg 
+        /boot/system/packages/ncurses6-6.1-1-x86_64.hpkg 
+        /boot/system/packages/nettle-3.4-1-x86_64.hpkg 
+        /boot/system/packages/nghttp2-1.33.0-1-x86_64.hpkg 
+        /boot/system/packages/noto-20170920-3-any.hpkg 
+        /boot/system/packages/noto_sans_cjk_jp-1.004-2-any.hpkg 
+        /boot/system/packages/openexr-2.2.1-2-x86_64.hpkg 
+        /boot/system/packages/openjpeg-2.3.0-1-x86_64.hpkg 
+        /boot/system/packages/openssl-1.0.2p-1-x86_64.hpkg 
+        /boot/system/packages/readline-7.0.3-2-x86_64.hpkg 
+        /boot/system/packages/sed-4.4-3-x86_64.hpkg 
+        /boot/system/packages/speex-1.2.0-3-x86_64.hpkg 
+        /boot/system/packages/tar-1.30-1-x86_64.hpkg 
+        /boot/system/packages/tiff4-4.0.9-2-x86_64.hpkg 
+        /boot/system/packages/unzip-6.0-5-x86_64.hpkg 
+        /boot/system/packages/zlib-1.2.11-3-x86_64.hpkg 
+        /boot/system/packages/zstd-1.3.5-1-x86_64.hpkg
+----- Package Info ---------------- header size: 80 heap size: 634 TOC 
+size: 41 package attributes size: 635 total size: 714 
+----------------------------------- waiting for build package 
+wordclock-0.1.1-1 to be activated Building ... mkdir -p 
+objects.x86_64-cc7-release; \ mkdepend -ISource/ 
+-Iobjects.x86_64-cc7-release/ -p .cpp:objects.x86_64-cc7-release/%n.o -m 
+-f "objects.x86_64-cc7-release/ClockView.d" Source/ClockView.cpp mkdir 
+-p objects.x86_64-cc7-release; \ mkdepend -ISource/ 
+-Iobjects.x86_64-cc7-release/ -p .cpp:objects.x86_64-cc7-release/%n.o -m 
+-f "objects.x86_64-cc7-release/MainWindow.d" Source/MainWindow.cpp mkdir 
+-p objects.x86_64-cc7-release; \ mkdepend -ISource/ 
+-Iobjects.x86_64-cc7-release/ -p .cpp:objects.x86_64-cc7-release/%n.o -m 
+-f "objects.x86_64-cc7-release/LabelView.d" Source/LabelView.cpp mkdir 
+-p objects.x86_64-cc7-release; \ mkdepend -ISource/ 
+-Iobjects.x86_64-cc7-release/ -p .cpp:objects.x86_64-cc7-release/%n.o -m 
+-f "objects.x86_64-cc7-release/App.d" Source/App.cpp g++ -c 
+Source/App.cpp -iquote./ -iquoteSource/ 
+-iquoteobjects.x86_64-cc7-release/ 
+-isystem/system/develop/headers/private/shared -O3 -o 
+"objects.x86_64-cc7-release/App.o" g++ -c Source/LabelView.cpp -iquote./ 
+-iquoteSource/ -iquoteobjects.x86_64-cc7-release/ 
+-isystem/system/develop/headers/private/shared -O3 -o 
+"objects.x86_64-cc7-release/LabelView.o" g++ -c Source/MainWindow.cpp 
+-iquote./ -iquoteSource/ -iquoteobjects.x86_64-cc7-release/ 
+-isystem/system/develop/headers/private/shared -O3 -o 
+"objects.x86_64-cc7-release/MainWindow.o" g++ -c Source/ClockView.cpp 
+-iquote./ -iquoteSource/ -iquoteobjects.x86_64-cc7-release/ 
+-isystem/system/develop/headers/private/shared -O3 -o 
+"objects.x86_64-cc7-release/ClockView.o"
+cat Source/WordClock.rdef | cc -E -iquote./  -iquoteSource/  
+-iquoteobjects.x86_64-cc7-release/  
+-isystem/system/develop/headers/private/shared  -O3    - | grep -av '^#' 
+| rc -I Source/ -o "objects.x86_64-cc7-release/WordClock.rsrc" -
+cc -o "objects.x86_64-cc7-release/WordClock" 
+objects.x86_64-cc7-release/App.o objects.x86_64-cc7-release/LabelView.o 
+objects.x86_64-cc7-release/MainWindow.o 
+objects.x86_64-cc7-release/ClockView.o -Xlinker -soname=_APP_ -LSource/ 
+-Lobjects.x86_64-cc7-release/ -lbe -lbnetapi -llocalestub -lshared 
+-ltranslation -lstdc++ -lsupc++ xres -o 
+objects.x86_64-cc7-release/WordClock 
+objects.x86_64-cc7-release/WordClock.rsrc mimeset -f 
+"objects.x86_64-cc7-release/WordClock" for lc in de en; do linkcatkeys 
+-o objects.x86_64-cc7-release/WordClock -s x-vnd.janus.WordClock -tr -l 
+$lc locales/$lc.catkeys; done Collecting files to be packaged ... cc -o 
+"/packages/wordclock-0.1.1-1/.self/apps/WordClock" 
+objects.x86_64-cc7-release/App.o objects.x86_64-cc7-release/LabelView.o 
+objects.x86_64-cc7-release/MainWindow.o 
+objects.x86_64-cc7-release/ClockView.o -Xlinker -soname=_APP_ -LSource/ 
+-Lobjects.x86_64-cc7-release/ -lbe -lbnetapi -llocalestub -lshared 
+-ltranslation -lstdc++ -lsupc++ xres -o 
+/packages/wordclock-0.1.1-1/.self/apps/WordClock 
+objects.x86_64-cc7-release/WordClock.rsrc mimeset -f 
+"/packages/wordclock-0.1.1-1/.self/apps/WordClock" No install directory 
+specified for "WordClock" (INSTALL_DIR is empty) name wordclock version 
+0.1.1-1 architecture x86_64 summary "An imprecise clock" description 
+"WordClock is an imprecise clock that displays the time in words instead 
+of digits. You can change the used font and embed the clock as a 
+Replicant on the Desktop." packager "Mirza <mirza@gci.test>" vendor 
+"Haiku Project" licenses {
+        "MIT"
+}
+copyrights { "2017 Janus"
+}
+provides { wordclock = 0.1.1 app:wordclock = 0.1.1
+}
+requires { haiku >= r1~beta1_hrev52295_96-1
+}
+urls { "https://github.com/Janus2/WordClock"
+}
+source-urls {
+# Download
+        
+"https://github.com/Janus2/WordClock/archive/cbb5da9a498ec99a71a68f039042601207eafdd1.tar.gz"
+# Location 2
+        
+"https://ports-mirror.haiku-os.org/wordclock/cbb5da9a498ec99a71a68f039042601207eafdd1.tar.gz"
+}
+mimesetting files for package wordclock-0.1.1-1-x86_64.hpkg ... creating 
+package wordclock-0.1.1-1-x86_64.hpkg ... ----- Package Info 
+---------------- header size: 80 heap size: 27512 TOC size: 810 package 
+attributes size: 593 total size: 27592 
+----------------------------------- waiting for build package 
+wordclock-0.1.1-1 to be deactivated Populating source package ... name 
+wordclock_source version 0.1.1-1 architecture source summary "An 
+imprecise clock (source files)" description "WordClock is an imprecise 
+clock that displays the time in words instead of digits. You can change 
+the used font and embed the clock as a Replicant on the Desktop." 
+packager "Mirza <mirza@gci.test>" vendor "Haiku Project" licenses {
+        "MIT"
+}
+copyrights { "2017 Janus"
+}
+provides { wordclock_source = 0.1.1
+}
+urls { "https://github.com/Janus2/WordClock"
+}
+source-urls {
+# Download
+        
+"https://github.com/Janus2/WordClock/archive/cbb5da9a498ec99a71a68f039042601207eafdd1.tar.gz"
+# Location 2
+        
+"https://ports-mirror.haiku-os.org/wordclock/cbb5da9a498ec99a71a68f039042601207eafdd1.tar.gz"
+}
+mimesetting files for package wordclock_source-0.1.1-1-source.hpkg ... 
+creating package wordclock_source-0.1.1-1-source.hpkg ... ----- Package 
+Info ---------------- header size: 80 heap size: 45753 TOC size: 1412 
+package attributes size: 546 total size: 45833 
+----------------------------------- grabbing 
+wordclock-0.1.1-1-x86_64.hpkg and moving it to 
+/boot/home/haikuports/packages/wordclock-0.1.1-1-x86_64.hpkg grabbing 
+wordclock_source-0.1.1-1-source.hpkg and moving it to 
+/boot/home/haikuports/packages/wordclock_source-0.1.1-1-source.hpkg
